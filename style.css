@@ -1,9 +1,63 @@
 * {
-margin: 0; 
-padding: 0;
-font-family: 'jost';
+    margin: 0;
+    padding: 0;
+    font-family: 'jost';
 }
+
 @font-face {
     font-family: 'jost';
     src: url('fonts/Jost-VariableFont_wght.ttf');
+}
+
+.zoom-container {
+    overflow: hidden;
+    height: 46vh;
+    width: 46vh;
+    border-radius: 100%;
+}
+
+.zoom-image {
+    transition: transform 0.9s ease;
+    height: 46vh;
+    width: 46vh;
+    border-radius: 100%;
+}
+
+.zoom-container:hover .zoom-image {
+    transform: scale(1.6);
+}
+.card {
+    background-color: #FF7F99;
+    display: flex;
+    padding: 20px;
+}
+
+.card-1 {
+    color: white;
+    font-size: medium;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-1 h1,
+.card-1 p {
+    margin: 0;
+}
+
+.card-1 h1 {
+    font-size: 3vh;
+    font-weight: normal;
+}
+
+.card-1 p {
+    font-size: 16px;
+    text-align: center;
+    color: black; 
+}
+
+.linkedinpng {
+    height: 5vh;
+    width: 5vh;
 }
