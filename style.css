@@ -4,6 +4,11 @@
     font-family: 'jost';
 }
 
+@font-face {
+    font-family: 'jost';
+    src: url('fonts/Jost-VariableFont_wght.ttf');
+}
+
 .main-left {
     display: flex;
     justify-content: center;
