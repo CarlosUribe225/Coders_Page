@@ -7,3 +7,55 @@ font-family: 'jost';
     font-family: 'jost';
     src: url('fonts/Jost-VariableFont_wght.ttf');
 }
+
+.box{
+    height: 17vh;
+    background-color: #FF7F99;
+}
+
+.box-left{
+    margin-left: 5vh;
+    margin-right: 50;
+    display: flex;
+    flex-direction: row;
+}
+
+.box-left-h3white{
+    color: #ffff;
+}
+.box-left-h3yellow{
+    color: #FFCA41;
+}
+
+.aligntoends{
+    display: flex; 
+    justify-content:space-between;
+    align-items: center;
+}
+
+.box-right{
+    margin-left: 5vh;
+    margin-right: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-right-p{
+    margin: 2.5vh;
+    color: #ffff;
+}
+
+.box-right-button{
+    margin: 2.5vh;
+    color: #ffff;
+    background-color: darksalmon;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-color: #ffff;
+    border-width: 0.1vh;
+    border-style: solid;
+    border-radius:15px;
+}
