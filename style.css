@@ -3,7 +3,53 @@ margin: 0;
 padding: 0;
 font-family: 'jost';
 }
+
 @font-face {
     font-family: 'jost';
     src: url('fonts/Jost-VariableFont_wght.ttf');
+}
+
+.main-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50vh;
+    background-color: white;
+}
+
+.main-right-container {
+    margin-top: 20vh;
+    color: #FF7F99;
+    line-height: 5vh;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.main-right-note {
+   
+    line-height: 3.8vh;
+    display: flex;
+    justify-content: center;
+    font-size: x-small;
+    letter-spacing: -0.4px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.main-right-btn button {
+    width: 7vw;
+    padding: 1px;
+    border-radius: 40px;
+    border: 1px solid #FFCA41;
+    background-color: #FFCA41;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.3vh;
+    cursor: pointer;
 }
