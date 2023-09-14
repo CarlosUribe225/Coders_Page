@@ -23,15 +23,16 @@ https://gorillaz.fandom.com/es/wiki/Murdoc_Niccals --> David */
 
 .zoom-container {
     overflow: hidden;
-    height: 46vh;
-    width: 46vh;
+    height: 20vh;
+    width: 20vh;
     border-radius: 100%;
+    margin-top: 5vh;
 }
 
 .zoom-image {
     transition: transform 0.9s ease;
-    height: 46vh;
-    width: 46vh;
+    height: 20vh;
+    width: 20vh;
     border-radius: 100%;
 }
 
@@ -41,7 +42,8 @@ https://gorillaz.fandom.com/es/wiki/Murdoc_Niccals --> David */
 .card {
     background-color: #FF7F99;
     display: flex;
-    padding: 20px;
+    width: 40vh;
+
 }
 
 .card-1 {
@@ -51,6 +53,7 @@ https://gorillaz.fandom.com/es/wiki/Murdoc_Niccals --> David */
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 3vh;
 }
 
 .card-1 h1,
