@@ -8,6 +8,18 @@
     font-family: 'jost';
     src: url('fonts/Jost-VariableFont_wght.ttf');
 }
+/* https://gorillaz.fandom.com/es/wiki/Noodle --> Oliwia
+https://gorillaz.fandom.com/es/wiki/Ace --> Stiven
+https://gorillaz.fandom.com/es/wiki/2-D --> Luis
+https://gorillaz.fandom.com/es/wiki/Russel_Hobbs --> Carlos
+https://gorillaz.fandom.com/es/wiki/Murdoc_Niccals --> David */
+
+.allcards{
+    display: flex;
+    flex-direction: row;
+
+}
+
 
 .zoom-container {
     overflow: hidden;
