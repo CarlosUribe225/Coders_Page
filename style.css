@@ -81,7 +81,6 @@ h1{
 }
 
 .main-right-note {
-   
     line-height: 3.8vh;
     display: flex;
     justify-content: center;
@@ -92,12 +91,12 @@ h1{
 .btn {
     display: flex;
     justify-content: center;
+    
 }
 
 .main-right-btn button {
     width: 8vw;
     height: 4.5vh;
-    padding: 1px;
     border-radius: 40px;
     border: 1px solid #FFCA41;
     background-color: #FFCA41;
@@ -106,6 +105,7 @@ h1{
     color: white;
     font-size: 1.3vh;
     cursor: pointer;
+    margin-top: 2.5vh;
 }
 
 .box{
