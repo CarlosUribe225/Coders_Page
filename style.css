@@ -4,6 +4,10 @@ padding: 0;
 font-family: 'jost';
 }
 
+@font-face {
+    font-family: 'jost';
+        src: url('fonts/Jost-VariableFont_wght.ttf');
+}
 .main{
     display: flex;
     flex-direction: row;
@@ -65,9 +69,14 @@ font-family: 'jost';
 
 .main-right-container {
     color: #FF7F99;
+    line-height: 8vh;
     display: flex;
     justify-content: center;
-   
+}
+
+h1{
+    font-weight: normal;
+    font-size: 8vh;
 }
 
 .main-right-note {
@@ -75,7 +84,7 @@ font-family: 'jost';
     line-height: 3.8vh;
     display: flex;
     justify-content: center;
-    font-size: x-small;
+    font-size: 2.5vh;
     letter-spacing: -0.4px;
 }
 
