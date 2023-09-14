@@ -8,6 +8,10 @@
     font-family: 'jost';
     src: url('fonts/Jost-VariableFont_wght.ttf');
 }
+.allcards{
+    display: flex;
+    flex-direction: row;
+}
 
 .zoom-container {
     overflow: hidden;
