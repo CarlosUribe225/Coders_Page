@@ -34,7 +34,8 @@
 .card {
     background-color: #FF7F99;
     display: flex;
-    width: 40vh;
+    justify-content: center;
+    width: 60vh;
 
 }
 
