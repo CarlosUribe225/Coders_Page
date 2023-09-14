@@ -1,9 +1,48 @@
 * {
-margin: 0; 
-padding: 0;
-font-family: 'jost';
-}
-@font-face {
+    margin: 0;
+    padding: 0;
     font-family: 'jost';
-    src: url('fonts/Jost-VariableFont_wght.ttf');
+}
+
+.main-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    background-color: white;
+}
+
+.main-left-drop {
+    background-color: #ff7f99;
+    margin: 2% 4%;
+    height: 297px;
+    width: 297px;
+    border-radius: 50% 0 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-left-drop-image {
+    height: 277px;
+    width: 277px;
+    border-radius: 50%;
+    display: flex;
+    animation: girar 15s linear infinite;
+}
+
+.main-left-drop-image:hover {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 5px 5px #ffca41;
+    -webkit-box-shadow: 0px 0px 5px 5px #ffca41;
+}
+
+@keyframes girar {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
