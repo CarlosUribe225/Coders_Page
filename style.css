@@ -22,9 +22,11 @@ font-family: 'jost';
 
 .box-left-h3white{
     color: #ffff;
+    font-size: 8vh;
 }
 .box-left-h3yellow{
     color: #FFCA41;
+    font-size: 8vh;
 }
 
 .aligntoends{
@@ -44,6 +46,7 @@ font-family: 'jost';
 .box-right-p{
     margin: 2.5vh;
     color: #ffff;
+    font-weight: normal;
 }
 
 .box-right-button{
