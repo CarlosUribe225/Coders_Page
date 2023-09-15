@@ -76,11 +76,14 @@
 }
 
 h1{
+    
     font-weight: normal;
-    font-size: 8vh;
+    font-size: 6vh;
+    line-height: 5vh;
 }
 
 .main-right-note {
+    margin-top: 2vh;
     line-height: 3.8vh;
     display: flex;
     justify-content: center;
@@ -93,7 +96,13 @@ h1{
     justify-content: center;
     
 }
+    
+.creative {
+    position: relative;
+    bottom: 4.5vh;
+    text-indent: -15vh;
 
+}
 .main-right-btn button {
     width: 8vw;
     height: 4.5vh;
