@@ -77,7 +77,7 @@
     color: #FF7F99;
     line-height: 8vh;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 h1{
@@ -243,3 +243,48 @@ h1{
     height: 5vh;
     width: 5vh;
 }
+
+a {
+    text-decoration: none;
+}
+.main-rightcarlos {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    width: 50vh;
+    background-color: white;
+}
+.main-right-notecarlos {
+    line-height: 3.8vh;
+    justify-content: center;
+    font-size: 2.5vh;
+    letter-spacing: -0.4px;
+}
+.main-right-note-title {
+    display: block;
+    float: none;
+    column-count: 1;
+    width: 100%;
+    font-size: medium;
+    margin-top: 5px;
+}
+.main-right-note-text {
+    display: block;
+    float: none;
+    text-align: justify;
+    width: 100%;
+    font-size: small;
+    margin-top: 15px;
+}
+.main-right-btn {
+    display: flex;
+}
+.main-right-btn img {
+    margin-top: 12px;
+    margin-right: 9px;
+}
+.aligntoends{
+    width: 100%;
+}
+
