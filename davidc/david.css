@@ -71,16 +71,22 @@
 
 .main-right-container {
     color: #FF7F99;
-    line-height: 10vh;
-    display: flex;
-    justify-content: center;
+    line-height: 15vh;
     margin-bottom: 5vh;
-}
+    display: flex;
+    justify-content: left;
+    margin-right: 4vh;
+    width: 100vh;
+    height: 10vh;
+    }
+    
+  
 
 h1{
     font-weight: normal;
     font-size: 8vh;
 }
+
 
 .main-right-note {
     line-height: 3.8vh;
@@ -88,12 +94,21 @@ h1{
     justify-content: center;
     font-size: 2.5vh;
     letter-spacing: -0.4px;
-    margin-bottom: 5vh;
+    margin-bottom: 2vh;
+
+}
+.main-right-david{
+    font-size: 2.8vh;
+    display: flex;
+    margin-right: 31vh;
+    margin-bottom: 3vh;
+    width: 70vh;
 }
 
 .btn {
     display: flex;
     justify-content: center;
+    margin-bottom: 20vh;
     
 }
 
@@ -222,10 +237,12 @@ h1{
     color: black; 
 }
 
-.linkedinpng {
-    height: 5vh;
-    width: 5vh;
-}
+
 a{
     text-decoration: none;
 }
+
+.linkedinpng{
+    width: 5vh;
+}
+
