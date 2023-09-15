@@ -75,6 +75,7 @@
     justify-content: center;
 }
 
+
 h1{
     
     font-weight: normal;
@@ -100,7 +101,7 @@ h1{
 .creative {
     position: relative;
     bottom: 4.5vh;
-    text-indent: -15vh;
+    text-indent: -25.3vh;
 
 }
 .main-right-btn button {
@@ -115,6 +116,7 @@ h1{
     font-size: 1.3vh;
     cursor: pointer;
     margin-top: 2.5vh;
+    margin-right: 21vh;
 }
 
 .box{
