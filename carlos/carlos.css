@@ -123,6 +123,9 @@ h1{
 .box{
     height: 17vh;
     background-color: #FF7F99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .box-left{
