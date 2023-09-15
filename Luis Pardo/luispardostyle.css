@@ -15,11 +15,6 @@
     align-items: center;
 }
 
-.linkedinpng2{
-    display: flex;
-    text-align: left;
-}
-
 
 .main-left {
     display: flex;
@@ -112,15 +107,8 @@ h1{
     font-size: 1.3vh;
     cursor: pointer;
     margin-top: 2.5vh;
-} 
-
-.main-right-down{
-    margin-right: 25vh;
-    display: flex;
-    align-items: center; 
-    justify-content: center;  
-    cursor: pointer;
 }
+
 .box{
     height: 17vh;
     background-color: #FF7F99;
@@ -146,15 +134,8 @@ h1{
     display: flex; 
     justify-content:space-between;
     align-items: center;
-    width: 100%;
 }
-.aligncard{
 
-    display: flex;
-    flex-direction: row;
-
-    align-items: center;
-}
 .box-right{
     margin-left: 5vh;
     margin-right: 5vh;
@@ -182,7 +163,6 @@ h1{
     border-style: solid;
     border-radius:15px;
 }
-
 .allcards{
     display: flex;
     flex-direction: row;
