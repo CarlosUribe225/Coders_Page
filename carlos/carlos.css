@@ -15,6 +15,11 @@
     align-items: center;
 }
 
+.linkedinpng2{
+    display: flex;
+    text-align: left;
+}
+
 
 .main-left {
     display: flex;
@@ -75,16 +80,12 @@
     justify-content: left;
 }
 
-
 h1{
-    
     font-weight: normal;
-    font-size: 6vh;
-    line-height: 5vh;
+    font-size: 8vh;
 }
 
 .main-right-note {
-    margin-top: 2vh;
     line-height: 3.8vh;
     display: flex;
     justify-content: center;
@@ -98,13 +99,7 @@ h1{
     justify-content: center;
     
 }
-    
-.creative {
-    position: relative;
-    bottom: 4.5vh;
-    text-indent: -25.3vh;
 
-}
 .main-right-btn button {
     width: 8vw;
     height: 4.5vh;
@@ -117,9 +112,15 @@ h1{
     font-size: 1.3vh;
     cursor: pointer;
     margin-top: 2.5vh;
-    margin-right: 21vh;
-}
+} 
 
+.main-right-down{
+    margin-right: 25vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center;  
+    cursor: pointer;
+}
 .box{
     height: 17vh;
     background-color: #FF7F99;
@@ -145,8 +146,15 @@ h1{
     display: flex; 
     justify-content:space-between;
     align-items: center;
+    width: 100%;
 }
+.aligncard{
 
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
 .box-right{
     margin-left: 5vh;
     margin-right: 5vh;
@@ -174,6 +182,7 @@ h1{
     border-style: solid;
     border-radius:15px;
 }
+
 .allcards{
     display: flex;
     flex-direction: row;
@@ -234,7 +243,6 @@ h1{
 .linkedinpng {
     height: 5vh;
     width: 5vh;
-
 }
 
 a {
@@ -282,5 +290,4 @@ a {
 .main-right-btn img {
     margin-top: 12px;
     margin-right: 9px;
-
 }

@@ -234,7 +234,8 @@ h1{
 .linkedinpng {
     height: 5vh;
     width: 5vh;
-
+<<<<<<<< HEAD:stiven/stiven.css
+========
 }
 
 a {
@@ -282,5 +283,5 @@ a {
 .main-right-btn img {
     margin-top: 12px;
     margin-right: 9px;
-
+>>>>>>>> ad1849092be530c22a990cb9bc33250feb2d43b3:Luis Pardo/luispardostyle.css
 }
