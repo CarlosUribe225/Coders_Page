@@ -82,16 +82,17 @@ h1{
 
 .main-right-note {
     line-height: 3.8vh;
-    display: flex;
-    justify-content: center;
+    display: block;
+    float: none;
+    column-count: 1;
+    width: 100%;
     font-size: 2.5vh;
     letter-spacing: -0.4px;
 }
 
 .btn {
     display: flex;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 
 .main-right-btn button {
