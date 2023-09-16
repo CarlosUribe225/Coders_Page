@@ -99,7 +99,6 @@
     0% {
         transform: rotate(0deg);
     }
-
     100% {
         transform: rotate(360deg);
     }
@@ -177,7 +176,6 @@ h1 {
 .zoom-container:hover .zoom-image {
     transform: scale(1.6);
 }
-
 .card {
     background-color: #FF7F99;
     display: flex;
