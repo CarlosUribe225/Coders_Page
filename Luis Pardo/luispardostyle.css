@@ -6,40 +6,85 @@
 
 @font-face {
     font-family: 'jost';
-        src: url('fonts/Jost-VariableFont_wght.ttf');
+        src:url(../fonts/Jost-VariableFont_wght.ttf)
 }
 
-.main{
+.box {
+    height: 17vh;
+    background-color: #ff7f99;
+}
+
+.box-left {
+    margin-left: 5vh;
     display: flex;
     flex-direction: row;
+}
+
+.box-left-h3white {
+    color: #ffff;
+    font-size: 8vh;
+}
+
+.box-left-h3yellow {
+    color: #FFCA41;
+    font-size: 8vh;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
+.box-right {
+    margin-left: 5vh;
+    margin-right: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-right-p {
+    margin: 2.5vh;
+    color: #ffff;
+    font-weight: normal;
+}
+
+.box-right-button {
+    margin: 5vh;
+    color: #ffff;
+    background-color: darksalmon;
+    padding: 2% 7%;
+    margin-left: 5%;
+    border-color: #ffff;
+    border-width: 0.1vh;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
 
 .main-left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50vw;
-    background-color: white;
+    margin-right: 5%;
+    margin-left: 15%;
 }
 
 .main-left-drop {
     background-color: #ff7f99;
-    margin: 2% 4%;
-    height: 297px;
-    width: 297px;
+    margin: 5%;
+    height: 290px;
+    width: 290px;
     border-radius: 50% 0 50% 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.main-left-drop-image {
-    height: 277px;
-    width: 277px;
+.main-left-dropimage {
+    height: 275px;
+    width: 275px;
+    margin: 2.3%;
     border-radius: 50%;
-    display: flex;
     animation: girar 15s linear infinite;
 }
 
@@ -54,45 +99,48 @@
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
 }
 
 .main-right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 50vh;
-    background-color: white;
+    margin-right: 15%;
+    margin-left: 5%;
 }
 
-.main-right-container {
+.main-right-name {
     color: #FF7F99;
     line-height: 8vh;
-    display: flex;
-    justify-content: center;
 }
 
-h1{
+h1 {
     font-weight: normal;
     font-size: 8vh;
 }
 
 .main-right-note {
     line-height: 3.8vh;
-    display: block;
-    float: none;
-    column-count: 1;
-    width: 100%;
     font-size: 2.5vh;
     letter-spacing: -0.4px;
 }
 
-.btn {
-    display: flex;
-    justify-content: center; 
+.main-right-note-title {
+    font-size: medium;
+    margin-top: 5px;
+}
+
+.main-right-note-text {
+    text-align: justify;
+    font-size: small;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.main-right-btn img {
+    margin-bottom: -10px;
+    margin-right: 9px;
 }
 
 .main-right-btn button {
@@ -101,69 +149,12 @@ h1{
     border-radius: 40px;
     border: 1px solid #FFCA41;
     background-color: #FFCA41;
-    text-decoration: none;
-    text-transform: uppercase;
     color: white;
-    font-size: 1.3vh;
+    font-size: 1.9vh;
     cursor: pointer;
-    margin-top: 2.5vh;
 }
 
-.box{
-    height: 17vh;
-    background-color: #FF7F99;
-}
-
-.box-left{
-    margin-left: 5vh;
-    margin-right: 50;
-    display: flex;
-    flex-direction: row;
-}
-
-.box-left-h3white{
-    color: #ffff;
-    font-size: 8vh;
-}
-.box-left-h3yellow{
-    color: #FFCA41;
-    font-size: 8vh;
-}
-
-.aligntoends{
-    display: flex; 
-    justify-content:space-between;
-    align-items: center;
-}
-
-.box-right{
-    margin-left: 5vh;
-    margin-right: 5vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.box-right-p{
-    margin: 2.5vh;
-    color: #ffff;
-    font-weight: normal;
-}
-
-.box-right-button{
-    margin: 2.5vh;
-    color: #ffff;
-    background-color: darksalmon;
-    padding-left: 2vh;
-    padding-right: 2vh;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    border-color: #ffff;
-    border-width: 0.1vh;
-    border-style: solid;
-    border-radius:15px;
-}
-.allcards{
+.allcards {
     display: flex;
     flex-direction: row;
 }
@@ -186,6 +177,7 @@ h1{
 .zoom-container:hover .zoom-image {
     transform: scale(1.6);
 }
+
 .card {
     background-color: #FF7F99;
     display: flex;
@@ -217,10 +209,14 @@ h1{
 .card-1 p {
     font-size: 16px;
     text-align: center;
-    color: black; 
+    color: black;
 }
 
 .linkedinpng {
     height: 5vh;
     width: 5vh;
+}
+
+a {
+    text-decoration: none;
 }
