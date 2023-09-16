@@ -64,8 +64,7 @@
 
 .main {
     display: flex;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 .main-left {
@@ -183,7 +182,7 @@ h1 {
     background-color: #FF7F99;
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 100vh;
 
 }
 
