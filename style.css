@@ -15,7 +15,6 @@
     align-items: center;
 }
 
-
 .main-left {
     display: flex;
     justify-content: center;
@@ -101,10 +100,8 @@ h1{
     border-radius: 40px;
     border: 1px solid #FFCA41;
     background-color: #FFCA41;
-    text-decoration: none;
-    text-transform: uppercase;
     color: white;
-    font-size: 1.3vh;
+    font-size: 1.9vh;
     cursor: pointer;
     margin-top: 2.5vh;
 }
