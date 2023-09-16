@@ -89,7 +89,7 @@
     animation: girar 15s linear infinite;
 }
 
-.main-left-drop-image:hover {
+.main-left-dropimage:hover {
     border-radius: 50%;
     -webkit-border-radius: 50%;
     box-shadow: 0px 0px 5px 5px #ffca41;
