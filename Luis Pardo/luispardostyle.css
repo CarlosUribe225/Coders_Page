@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'jost';
-        src:url(../fonts/Jost-VariableFont_wght.ttf)
+    src: url(../fonts/Jost-VariableFont_wght.ttf)
 }
 
 .box {
@@ -64,7 +64,7 @@
 
 .main {
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
 
 .main-left {
@@ -214,3 +214,141 @@ h1 {
 a {
     text-decoration: none;
 }
+
+
+@media (max-width: 600px) {
+    .box {
+        height: auto;
+    }
+
+    .box-left {
+        margin-left: 2vh;
+        display: block;
+        text-align: center;
+    }
+
+    .box-left-h3white,
+    .box-left-h3yellow {
+        font-size: 5vh;
+    }
+
+    .box-right {
+        margin: 5vh;
+        display: block;
+        text-align: center;
+    }
+
+    .box-right-button {
+        padding: 3% 10%;
+        margin: 3vh 0;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .main-left,
+    .main-right {
+        margin: 0;
+        text-align: center;
+    }
+
+    .main-left-drop {
+        height: 150px;
+        width: 150px;
+    }
+
+    .main-left-dropimage {
+        height: 140px;
+        width: 140px;
+    }
+
+    .main-right-name {
+        line-height: 5vh;
+    }
+
+    h1 {
+        font-size: 5vh;
+    }
+
+    .main-right-btn button {
+        width: auto;
+    }
+
+    .card {
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+}
+
+
+@media (max-width: 150px) {
+    
+    .box {
+        height: auto;
+    }
+
+    .box-left {
+        margin-left: 2vh;
+        display: block;
+        text-align: center;
+    }
+
+    .box-left-h3white,
+    .box-left-h3yellow {
+        font-size: 3vh; 
+    }
+
+    .box-right {
+        margin: 3vh;
+        display: block;
+        text-align: center;
+    }
+
+    .box-right-button {
+        padding: 1% 5%; 
+        margin: 1vh 0; 
+        width: auto;
+        font-size: 1.5vh; 
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .main-left,
+    .main-right {
+        margin: 0;
+        text-align: center;
+    }
+
+    .main-left-drop {
+        height: 70px; 
+        width: 70px; 
+    }
+
+    .main-left-dropimage {
+        height: 65px; 
+        width: 65px; 
+    }
+
+    .main-right-name {
+        line-height: 2.5vh; 
+    }
+
+    h1 {
+        font-size: 2.5vh;
+    }
+
+    .main-right-btn button {
+        width: auto;
+    }
+
+    .card {
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+}
+
