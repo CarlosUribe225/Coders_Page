@@ -30,6 +30,7 @@
     font-size: 8vh;
 }
 
+
 .content {
     display: flex;
     justify-content: space-between;
@@ -284,7 +285,7 @@ a {
 
 
 @media (max-width: 150px) {
-    
+
     .box {
         height: auto;
     }
@@ -351,4 +352,3 @@ a {
         width: auto;
     }
 }
-
