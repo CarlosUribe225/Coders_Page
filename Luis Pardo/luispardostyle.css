@@ -98,11 +98,11 @@
 
 @keyframes girar {
     0% {
-        transform: rotate(0deg);
+        transform: rotate(360deg);
     }
 
     100% {
-        transform: rotate(360deg);
+        transform: rotate(0deg);
     }
 }
 
@@ -276,7 +276,7 @@ a {
         width: auto;
     }
 
-    .card {
+    .allcards {
         display: flex;
         justify-content: center;
         width: auto;
@@ -284,7 +284,7 @@ a {
 }
 
 
-@media (max-width: 150px) {
+@media (max-width: 375px) {
 
     .box {
         height: auto;
@@ -346,7 +346,7 @@ a {
         width: auto;
     }
 
-    .card {
+    .allcards {
         display: flex;
         justify-content: center;
         width: auto;
