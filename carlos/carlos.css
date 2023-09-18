@@ -9,6 +9,134 @@
         src: url('fonts/Jost-VariableFont_wght.ttf');
 }
 
+@media (max-width:800px){
+    .box{
+        display: flex;
+        flex-direction: column;
+        font-size: medium;
+        justify-content:left;
+        align-items: flex-start;
+    }
+    .main-left-drop {
+        background-color: #ff7f99;
+        margin: 2% 4%;
+        height: 20vh;
+        width: 2vh;
+        border-radius: 50% 0 50% 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+    .main-left-drop-image {
+        height: 15vh;
+        width: 15vh;
+        border-radius: 50%;
+        display: flex;
+        animation: girar 15s linear infinite;
+    }
+    .main-rightcarlos {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        flex-direction: column;
+        width: 20vh;
+        background-color: white;
+        font-size: medium;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        background-color: white;
+    }
+    .main-right-notecarlos {
+        line-height: 3.8vh;
+        justify-content: center;
+        font-size: 1.5vh;
+        letter-spacing: -0.4px;
+    }
+    .card {
+        background-color: #FF7F99;
+        display: flex;
+        justify-content: center;
+        width: 20vh;
+    }
+    .allcards{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:500px){
+    .box{
+        font-size:small;
+        display: flex;
+        flex-direction: column;
+        justify-content:left;
+        align-items: flex-start;
+    }
+    .main-left-drop {
+        background-color: #ff7f99;
+        margin: 2% 4%;
+        height: 18vh;
+        width: 18vh;
+        border-radius: 50% 0 50% 50%;
+        display: flex;
+        justify-content: center;
+        align-items:baseline;
+    } 
+    .main-left-drop-image {
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        display: flex;
+        animation: girar 15s linear infinite;
+    }
+    .main-rightcarlos {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        flex-direction: column;
+        width: 15vh;
+        background-color: white;
+        font-size:small;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        background-color: white;
+    }
+    .main-right-notecarlos {
+        line-height: 3.8vh;
+        justify-content: center;
+        font-size: 1vh;
+        letter-spacing: -0.4px;
+    }
+    .card {
+        background-color: #FF7F99;
+        display: flex;
+        justify-content: center;
+        width: 15vh;
+    }
+    .allcards{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .main{
     display: flex;
     flex-direction: row;
@@ -32,8 +160,8 @@
 .main-left-drop {
     background-color: #ff7f99;
     margin: 2% 4%;
-    height: 297px;
-    width: 297px;
+    height: 35vh;
+    width: 35vh;
     border-radius: 50% 0 50% 50%;
     display: flex;
     justify-content: center;
@@ -41,8 +169,8 @@
 }
 
 .main-left-drop-image {
-    height: 277px;
-    width: 277px;
+    height: 33vh;
+    width: 33vh;
     border-radius: 50%;
     display: flex;
     animation: girar 15s linear infinite;
@@ -126,15 +254,13 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-size: auto;
 }
-
 .box-left{
     margin-left: 5vh;
-    margin-right: 50;
     display: flex;
     flex-direction: row;
 }
-
 .box-left-h3white{
     color: #ffff;
     font-size: 8vh;
@@ -144,19 +270,6 @@ h1{
     font-size: 8vh;
 }
 
-.aligntoends{
-    display: flex; 
-    justify-content:space-between;
-    align-items: center;
-    width: 100%;
-}
-.aligncard{
-
-    display: flex;
-    flex-direction: row;
-
-    align-items: center;
-}
 .box-right{
     margin-left: 5vh;
     margin-right: 5vh;
@@ -213,7 +326,6 @@ h1{
     display: flex;
     justify-content: center;
     width: 60vh;
-
 }
 
 .card-1 {
