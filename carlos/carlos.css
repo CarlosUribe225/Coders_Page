@@ -61,17 +61,19 @@
         font-size: 1.5vh;
         letter-spacing: -0.4px;
     }
+    
     .card {
-        background-color: #FF7F99;
-        display: flex;
-        justify-content: center;
-        width: 20vh;
+            display: flex;
+            justify-content: center;
+            width: auto;
+        }
     }
     .allcards{
         display: flex;
         flex-direction: column;
+        width: auto;
     }
-}
+
 
 @media (max-width:500px){
     .box{
@@ -126,14 +128,14 @@
         letter-spacing: -0.4px;
     }
     .card {
-        background-color: #FF7F99;
         display: flex;
         justify-content: center;
-        width: 15vh;
+        width: auto;
     }
     .allcards{
         display: flex;
         flex-direction: column;
+        width: auto;
     }
 }
 
